@@ -1,0 +1,63 @@
+### TODO
+
+- [ ] Abstract  
+    - [x] Short description of the contents
+    - [ ] Author
+    - [ ] Licensing
+- [ ] Overview
+    - [ ] What this article is about
+    - [ ] Who is the article for
+    - [ ] Quick overview of what’s ahead
+    - [ ] Main idea: generating constraint rules from the source code
+    - [ ] Contents structure
+- [ ] Introduction
+    - [ ] Represent types as terms
+    - [ ] Use unification
+        - [ ] Find the most general unifier
+    - [ ] Use constraint rules for type checking and type inference
+    - [ ] Generate constraint rules
+    - [ ] Type checking and type inference as CLP
+- [ ] Constraints rules
+    - [ ] Section intro, what’s being discussed, why read it
+    - [ ] Structure of constraint rule
+    - [ ] User-defined constraints, built-in constraints.
+    - [ ] Equality and unification predicates
+    - [ ] Logical variables
+    - [ ] Constraint rule structure
+    - [ ] Calling arbitrary code.
+    - [ ] Constraint lifecycle
+    - [ ] Activating constraints from the user code.
+    - [ ] Stack
+- [ ] Type checking aspect
+    - [ ] Type terms as datatype
+    - [ ] Type term definition
+        - [ ] newType, asType
+        - [ ] recover the SNode 
+    - [ ] Type initialization
+    - [ ] Typing rules, fragments
+        - [ ] Stand-alone, for each
+        - [ ] templates structure: head, guard, body, alternatives
+    - [ ] Handlers, stages
+- [ ] Lambda calculus
+    - [ ] Language definition
+        - [ ] Structure
+            - [ ] Bool type
+        - [ ] Type system
+    - [ ] Type checking and type inference
+        - [ ] Constraints
+        - [ ] Typing rules
+        - [ ] Type recovery
+        - [ ] Example of running type checking
+        - [ ] Activation trace
+- [ ] Conclusion
+    - [ ] What has been just presented
+    - [ ] What are practical applications
+    - [ ] What has not been covered
+    - [ ] Beyond type checking
+    - [ ] Future work
+- [ ] Acknowledgements
+    - [ ] CHR
+    - [ ] JCHR
+    - [ ] Unification algorithm and type algebra
+    - [ ] Simply typed lambda calculus
+    - [ ] Hindley-Milner type inference algorithm 

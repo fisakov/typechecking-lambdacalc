@@ -1,0 +1,3 @@
+### Abstract
+
+Implementing type checking and type inference in MPS has long been quite a challenge for language authors. Although MPS provides solid support for some basic scenarios, there are just too many corner cases that sometimes require construction of an ad hoc solution. We present a redesigned type checking subsystem that addresses many issues with the existing design, and we believe should make writing custom type systems much more straightforward.
