@@ -2,7 +2,7 @@
 
 # Type checking lambda calculus with constraint rules
 
-## A primer of the upcoming feature of MPS
+## A primer on the upcoming feature of JetBrains MPS
 
 /Abstract.md
 
@@ -17,5 +17,3 @@
 /Conclusion.md
 
 /Acknowledgements.md
-
-

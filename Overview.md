@@ -1,6 +1,6 @@
 ### Overview
 
-This article serves as a brief account of using the new approach to type checking that is currently being developed. The contents should be accessible to anyone familiar with MPS and type checking in general. If you are interested in what’s going on in the area of type checking, and you would like to have better understanding of the new approach we are taking to address the problem, this article is for you. Also, we are interested in what you think, so please send your feedback. 
+This article serves as a brief account of using the new approach to type checking that is currently being developed. The contents should be accessible to anyone familiar with MPS and type checking in general. If you are interested in what’s going on in the area of type checking, and you would like to have better understanding of the new approach that we take to address the problem, this article is for you. Also, we are interested in what you think, so please send your feedback. 
 
 We explain how the redesigned type checking infrastructure for MPS works. We introduce term as the data structure to represent types, we discuss unification and what role it plays in type inference, what are logical variables and how they can be used as type variables, and finally how programming with constraints is applicable to type checking. 
 
