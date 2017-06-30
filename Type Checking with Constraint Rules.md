@@ -4,6 +4,8 @@
 
 ## A primer on the upcoming feature of JetBrains MPS
 
+#### by Fedor Isakov
+
 /Abstract.md
 
 /Overview.md
@@ -17,3 +19,6 @@
 /Conclusion.md
 
 /Acknowledgements.md
+
+/Attribution.md
+
