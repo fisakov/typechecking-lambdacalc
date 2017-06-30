@@ -4,14 +4,9 @@ In order to manipulate with types as objects we need to introduce an appropriate
 
 #### A digression on terms and unification
 
-<blockquote>
-<p>
-A term is usually defined as an object that can be either a constant or a function of several arguments, each of which being a term as well. In addition to that, a term may also be a variable ranging over terms. So, for example, `a`, `b`, `f(g h)`, and `X` are all terms, where lowercase letters represent function or constant symbols, and uppercase letters are for variables. 
-</p>
-<p>
-Unification is the process of finding a substitution for variables, called «unifier», that make two terms equal. For example, a substitution `[X→a]` is a unifier for two terms `f(a)` and `f(X)`, whereas the terms `g(Y b)` and `g(c d)` can’t be unified, because `b≠d`. 
-</p>
-</blockquote>
+> A term is usually defined as an object that can be either a constant or a function of several arguments, each of which being a term as well. In addition to that, a term may also be a variable ranging over terms. So, for example, `a`, `b`, `f(g h)`, and `X` are all terms, where lowercase letters represent function or constant symbols, and uppercase letters are for variables. 
+
+> Unification is the process of finding a substitution for variables, called «unifier», that make two terms equal. For example, a substitution `[X→a]` is a unifier for two terms `f(a)` and `f(X)`, whereas the terms `g(Y b)` and `g(c d)` can’t be unified, because `b≠d`. 
 
 With terms representing types we can use the unification to find the values for type variables, and thus infer the type. This idea is the basis for a type inference algorithm known as «Hindley-Milner», which is applied widely in languages based on lambda calculus. 
 
@@ -19,9 +14,7 @@ We introduce logical variables as a model for referencing a value that is comput
 
 ![An example of type term](img/fun-term.png)
 
-<blockquote>
-The source code to the samples presented here are available online, see the links at the end of the article.
-</blockquote>
+> The source code to the samples presented here are available online, see the links at the end of the article.
 
 The language of typing rules makes it easy to declare and use the logical variables. They are declared  at the start of a rule block, just like type variables declared at the start of a Java method. 
 

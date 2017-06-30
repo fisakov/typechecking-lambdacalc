@@ -18,9 +18,7 @@ Using a logical variable to capture a sub-term of the type term that is expected
 
 ![A typing rule fragment](img/app-rule-frag.png)
 
-<blockquote>
-Here `FI` is unified with a term containing unbound logical variables (defined at the start of the block) for the «arg» and «res» slots. On successful unification the variables get assigned the values contained in the corresponding slots in the term referred to by `FI`.  
-</blockquote>
+> Here `FI` is unified with a term containing unbound logical variables (defined at the start of the block) for the «arg» and «res» slots. On successful unification the variables get assigned the values contained in the corresponding slots in the term referred to by `FI`.  
 
 #### Structure of constraint rules program
 
@@ -28,9 +26,7 @@ A program is composed of handlers, which are containers of constraint rules. Eve
 
 ![An example of typing rule with alternative branch](img/typeof-ifthenelse.png)
 
-<blockquote>
-The block following «else» keyword in the «produce» section of the rule gets executed if any of the constraints or predicates in the main branch fails. Here we call a static method `Util.formatError`, which assigns the logical variable `E` the error string, and then activate the constraint `error/2`, which attaches the error to the AST node `ite`. 
-</blockquote>
+> The block following «else» keyword in the «produce» section of the rule gets executed if any of the constraints or predicates in the main branch fails. Here we call a static method `Util.formatError`, which assigns the logical variable `E` the error string, and then activate the constraint `error/2`, which attaches the error to the AST node `ite`. 
 
 #### Constraint lifecycle
 
