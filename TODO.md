@@ -1,63 +1,58 @@
 ### TODO
 
-- [ ] Abstract  
+- [x] Abstract  
     - [x] Short description of the contents
-    - [ ] Author
-    - [ ] Licensing
-- [ ] Overview
-    - [ ] What this article is about
-    - [ ] Who is the article for
-    - [ ] Quick overview of what’s ahead
-    - [ ] Main idea: generating constraint rules from the source code
-    - [ ] Contents structure
+- [x] Overview
+    - [x] What this article is about
+    - [x] Who is the article for
+    - [x] Quick overview of what’s ahead
+    - [x] Main idea: generating constraint rules from the source code
 - [ ] Introduction
-    - [ ] Represent types as terms
-    - [ ] Use unification
+    - [x] Represent types as terms
+    - [x] Use unification
         - [ ] Find the most general unifier
-    - [ ] Use constraint rules for type checking and type inference
-    - [ ] Generate constraint rules
+    - [x] Use constraint rules for type checking and type inference
+    - [x] Generate constraint rules
     - [ ] Type checking and type inference as CLP
 - [ ] Constraints rules
-    - [ ] Section intro, what’s being discussed, why read it
-    - [ ] Structure of constraint rule
-    - [ ] User-defined constraints, built-in constraints.
-    - [ ] Equality and unification predicates
-    - [ ] Logical variables
-    - [ ] Constraint rule structure
-    - [ ] Calling arbitrary code.
-    - [ ] Constraint lifecycle
+    - [x] Section intro, what’s being discussed, why read it
+    - [x] User-defined constraints, built-in constraints.
+    - [x] Equality and unification predicates
+    - [x] Logical variables
+    - [x] Constraint rule structure
+    - [x] Calling arbitrary code.
+    - [x] Constraint lifecycle
     - [ ] Activating constraints from the user code.
     - [ ] Stack
+- [ ] Lambda calculus
+    - [x] Language definition, examples
+    - [x] Language Structure
+    - [x] Types
+    - [ ] Type checking and type inference
+        - [x] Type term definition
+        - [x] Constraints
+            - [x] newType, asType
+        - [x] Typing rules
+        - [ ] Type recovery
 - [ ] Type checking aspect
     - [ ] Type terms as datatype
-    - [ ] Type term definition
-        - [ ] newType, asType
         - [ ] recover the SNode 
     - [ ] Type initialization
     - [ ] Typing rules, fragments
         - [ ] Stand-alone, for each
         - [ ] templates structure: head, guard, body, alternatives
     - [ ] Handlers, stages
-- [ ] Lambda calculus
-    - [ ] Language definition
-        - [ ] Structure
-            - [ ] Bool type
-        - [ ] Type system
-    - [ ] Type checking and type inference
-        - [ ] Constraints
-        - [ ] Typing rules
-        - [ ] Type recovery
-        - [ ] Example of running type checking
-        - [ ] Activation trace
+    - [ ] Activation trace
+    - [ ] Example of running type checking
 - [ ] Conclusion
-    - [ ] What has been just presented
-    - [ ] What are practical applications
+    - [x] What has been just presented
+    - [x] What are practical applications
     - [ ] What has not been covered
-    - [ ] Beyond type checking
+    - [x] Beyond type checking
     - [ ] Future work
-- [ ] Acknowledgements
-    - [ ] CHR
-    - [ ] JCHR
-    - [ ] Unification algorithm and type algebra
-    - [ ] Simply typed lambda calculus
-    - [ ] Hindley-Milner type inference algorithm 
+- [x] Acknowledgements
+    - [x] CHR
+    - [x] JCHR
+    - [x] Unification algorithm and term algebra
+    - [x] Simply typed lambda calculus
+    - [x] Hindley-Milner type inference algorithm 
