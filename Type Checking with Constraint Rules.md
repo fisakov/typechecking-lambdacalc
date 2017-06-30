@@ -1,6 +1,6 @@
 /jetbrains.svg
 
-# Type checking lambda calculus with constraint rules
+# Type Checking Lambda Calculus with Constraint Rules
 
 ## A primer on the upcoming feature of JetBrains MPS
 
