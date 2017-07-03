@@ -1,4 +1,4 @@
-![](jetbrains.svg)
+![](img/jetbrains-small.png)
 
 # Type Checking Lambda Calculus with Constraint Rules
 
